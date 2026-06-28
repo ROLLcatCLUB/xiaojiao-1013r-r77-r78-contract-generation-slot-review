@@ -1,0 +1,42 @@
+{
+  "stage": "1013R_R78_R77_GENERATION_SLOT_MODEL_SMOKE",
+  "generated_at": "2026-06-28T08:09:15+00:00",
+  "generated_slots": [
+    {
+      "stage": "1013R_R78_R77_GENERATION_SLOT_MODEL_SMOKE",
+      "contract_id": "R77-DOC-SECTION-BASIS",
+      "canonical_field_key": "curriculum_basis",
+      "generated_text": "本课为三年级美术第二单元《多彩的世界》第1课《色彩的渐变》，对应教材第6页，定位为色彩感知与表现学习。不引用教材原文，仅按课标明依据。",
+      "preview_only": true,
+      "formal_apply_allowed": false,
+      "source": "real_model_smoke"
+    },
+    {
+      "stage": "1013R_R78_R77_GENERATION_SLOT_MODEL_SMOKE",
+      "contract_id": "R77-ANALYSIS-TEXT-01",
+      "canonical_field_key": "student_starting_point",
+      "generated_text": "三年级学生已能区分明显深浅和冷暖，但对渐变的认识易停留在“多加一种颜色”，对明度渐变和色相渐变的方向控制较弱，需要在示范中反复强调顺序。",
+      "preview_only": true,
+      "formal_apply_allowed": false,
+      "source": "real_model_smoke"
+    },
+    {
+      "stage": "1013R_R78_R77_GENERATION_SLOT_MODEL_SMOKE",
+      "contract_id": "R77-PROCESS-TEXT-01",
+      "canonical_field_key": "lesson_task_chain",
+      "generated_text": "导入分三步：先出示晚霞或海水图片，请学生用“由……到……”描述颜色变化；再翻到教材第6页，指认画面中明暗方向；最后收束为“同一颜色一点点变”，为后续练习定调。",
+      "preview_only": true,
+      "formal_apply_allowed": false,
+      "source": "real_model_smoke"
+    },
+    {
+      "stage": "1013R_R78_R77_GENERATION_SLOT_MODEL_SMOKE",
+      "contract_id": "R77-MATERIAL-PROMPT",
+      "canonical_field_key": "material_requests",
+      "generated_text": "备课前请补充：学生渐变练习作品样例2-3幅、评价表维度（如方向、均匀度）、教材第6页高清图、教室是否备有水粉或彩铅等工具。这些信息仅用于教师自查，暂不进入正式课包。",
+      "preview_only": true,
+      "formal_apply_allowed": false,
+      "source": "real_model_smoke"
+    }
+  ]
+}

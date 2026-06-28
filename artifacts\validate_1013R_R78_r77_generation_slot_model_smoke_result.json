@@ -1,0 +1,110 @@
+{
+  "stage": "1013R_R78_R77_GENERATION_SLOT_MODEL_SMOKE",
+  "generated_at": "2026-06-28T08:09:15+00:00",
+  "status": "PASS",
+  "target_page": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R77_CONTRACT_ID_STATIC_SAMPLE_PAGE\\prep_room_contract_id_static_sample_1013R_R77.html",
+  "model_outputs_file": "outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R77_CONTRACT_ID_STATIC_SAMPLE_PAGE\\r77_generation_slot_model_outputs.json",
+  "checks": {
+    "provider_called": true,
+    "model_called": true,
+    "model_log_success": true,
+    "all_target_slots_generated": true,
+    "formal_apply_allowed_false": true,
+    "preview_only_true": true,
+    "main_r21_modified": false
+  },
+  "target_slots": [
+    {
+      "contract_id": "R77-DOC-SECTION-BASIS",
+      "canonical_field_key": "curriculum_basis",
+      "visible_context": "一、本课依据：本课对应三年级第二单元《多彩的世界》第1课《色彩的渐变》，教材页码为第6页。",
+      "teacher_intent": "把本课依据写清楚一点，但不要编造教材原文。"
+    },
+    {
+      "contract_id": "R77-ANALYSIS-TEXT-01",
+      "canonical_field_key": "student_starting_point",
+      "visible_context": "二、学情分析：三年级学生能直观看到颜色深浅、浓淡和鲜灰差异，但容易把渐变理解为混几种颜色。",
+      "teacher_intent": "生成一条更像老师能用的学情判断。"
+    },
+    {
+      "contract_id": "R77-PROCESS-TEXT-01",
+      "canonical_field_key": "lesson_task_chain",
+      "visible_context": "六、教学过程：1. 看见渐变：出示自然图片和教材页。展示差异、指认方向、收住发现。",
+      "teacher_intent": "把导入环节生成成更具体、可执行的课堂步骤。"
+    },
+    {
+      "contract_id": "R77-MATERIAL-PROMPT",
+      "canonical_field_key": "material_requests",
+      "visible_context": "资料补充：缺学生作品样例、评价维度、教材OCR、课堂条件。",
+      "teacher_intent": "生成资料补充提示，只提示老师需要补什么，不写进正式课包。"
+    }
+  ],
+  "generated_slots": [
+    {
+      "stage": "1013R_R78_R77_GENERATION_SLOT_MODEL_SMOKE",
+      "contract_id": "R77-DOC-SECTION-BASIS",
+      "canonical_field_key": "curriculum_basis",
+      "generated_text": "本课为三年级美术第二单元《多彩的世界》第1课《色彩的渐变》，对应教材第6页，定位为色彩感知与表现学习。不引用教材原文，仅按课标明依据。",
+      "preview_only": true,
+      "formal_apply_allowed": false,
+      "source": "real_model_smoke"
+    },
+    {
+      "stage": "1013R_R78_R77_GENERATION_SLOT_MODEL_SMOKE",
+      "contract_id": "R77-ANALYSIS-TEXT-01",
+      "canonical_field_key": "student_starting_point",
+      "generated_text": "三年级学生已能区分明显深浅和冷暖，但对渐变的认识易停留在“多加一种颜色”，对明度渐变和色相渐变的方向控制较弱，需要在示范中反复强调顺序。",
+      "preview_only": true,
+      "formal_apply_allowed": false,
+      "source": "real_model_smoke"
+    },
+    {
+      "stage": "1013R_R78_R77_GENERATION_SLOT_MODEL_SMOKE",
+      "contract_id": "R77-PROCESS-TEXT-01",
+      "canonical_field_key": "lesson_task_chain",
+      "generated_text": "导入分三步：先出示晚霞或海水图片，请学生用“由……到……”描述颜色变化；再翻到教材第6页，指认画面中明暗方向；最后收束为“同一颜色一点点变”，为后续练习定调。",
+      "preview_only": true,
+      "formal_apply_allowed": false,
+      "source": "real_model_smoke"
+    },
+    {
+      "stage": "1013R_R78_R77_GENERATION_SLOT_MODEL_SMOKE",
+      "contract_id": "R77-MATERIAL-PROMPT",
+      "canonical_field_key": "material_requests",
+      "generated_text": "备课前请补充：学生渐变练习作品样例2-3幅、评价表维度（如方向、均匀度）、教材第6页高清图、教室是否备有水粉或彩铅等工具。这些信息仅用于教师自查，暂不进入正式课包。",
+      "preview_only": true,
+      "formal_apply_allowed": false,
+      "source": "real_model_smoke"
+    }
+  ],
+  "model_call_log_redacted": {
+    "call_id": "R78_r77_generation_slot_model_smoke",
+    "stage": "1013R_R78_R77_GENERATION_SLOT_MODEL_SMOKE",
+    "provider_called": true,
+    "model_called": true,
+    "status": "success",
+    "prompt_hash": "0803e8ae723f48da987384c94341983a3ec211b84e6361688b845a86b09b954d",
+    "latency_ms": 6194,
+    "output_slot_count": 4,
+    "provider_meta": {
+      "provider": "openai_compatible",
+      "model": "MiniMax-M3",
+      "base_url": "https://api.minimaxi.com/v1",
+      "credential_source": "env",
+      "reasoning_split": true,
+      "latency_ms": 6194
+    }
+  },
+  "safe_error": "",
+  "boundary": {
+    "sandbox_only": true,
+    "provider_called": true,
+    "model_called": true,
+    "formal_apply_performed": false,
+    "database_written": false,
+    "feishu_written": false,
+    "memory_written": false,
+    "main_r21_modified": false,
+    "r77_static_sample_modified": true
+  }
+}

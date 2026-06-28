@@ -1,0 +1,173 @@
+{
+  "stage": "1013R_R77_CONTRACT_ID_STATIC_SAMPLE_PAGE",
+  "source": "D:\\Documents\\SmartEdu\\xiaobei-core\\outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R21_page_copy_binds_unified_package\\prep_room_page_copy_binds_unified_package_1013R_R21.html",
+  "html": "D:\\Documents\\SmartEdu\\xiaobei-core\\outputs\\PREP_ROOM_RENDER_CANVAS_DEEPEN_V1\\1013R_R77_CONTRACT_ID_STATIC_SAMPLE_PAGE\\prep_room_contract_id_static_sample_1013R_R77.html",
+  "contracts": [
+    {
+      "contract_id": "R77-COVER-UNIT-BASIC-INFO",
+      "label": "单元卡",
+      "field": "unit_basic_info",
+      "selectors": [
+        ".nb-cover",
+        ".nb-cover-title",
+        ".nb-cover-sub"
+      ]
+    },
+    {
+      "contract_id": "R77-LEFT-LESSON-CATALOG",
+      "label": "左侧目录",
+      "field": "lesson_task_chain",
+      "selectors": [
+        ".nb-tree",
+        ".nb-tree-group",
+        ".nb-tree-button"
+      ]
+    },
+    {
+      "contract_id": "R77-STATUS-ROW",
+      "label": "状态行",
+      "field": "lesson_task_chain",
+      "selectors": [
+        ".nb-state-bar",
+        ".nb-status-row",
+        ".chip-row"
+      ]
+    },
+    {
+      "contract_id": "R77-MATERIAL-PROMPT",
+      "label": "资料提示",
+      "field": "material_requests",
+      "selectors": [
+        ".nb-material-front-prompt",
+        "[data-r49-material-requests-prompt='true']"
+      ]
+    },
+    {
+      "contract_id": "R77-DOC-SECTION-BASIS",
+      "label": "本课依据",
+      "field": "curriculum_basis",
+      "selectors": [
+        "#chunk-render_chunk_basis_1013K_R3",
+        "[data-r21-field-anchor='lesson_basis']"
+      ]
+    },
+    {
+      "contract_id": "R77-DOC-SECTION-ANALYSIS",
+      "label": "学情分析",
+      "field": "student_starting_point",
+      "selectors": [
+        "#chunk-render_chunk_analysis_1013K_R3"
+      ]
+    },
+    {
+      "contract_id": "R77-DOC-SECTION-GOALS",
+      "label": "教学目标",
+      "field": "core_literacy_goals",
+      "selectors": [
+        "#chunk-render_chunk_goals_1013K_R3"
+      ]
+    },
+    {
+      "contract_id": "R77-DOC-SECTION-PREPARATION",
+      "label": "教学准备",
+      "field": "skills_materials_scaffolds",
+      "selectors": [
+        "#chunk-render_chunk_preparation_1013K_R3"
+      ]
+    },
+    {
+      "contract_id": "R77-DOC-TEACHING-PROCESS",
+      "label": "教学过程",
+      "field": "lesson_task_chain",
+      "selectors": [
+        "#chunk-render_chunk_process_1013K_R3",
+        ".nb-process-list",
+        ".nb-process-step"
+      ]
+    },
+    {
+      "contract_id": "R77-PROCESS-INTRO",
+      "label": "导入行",
+      "field": "lesson_task_chain",
+      "line_contract_id": "line_intro",
+      "text_contains": [
+        "看见渐变",
+        "出示自然图片",
+        "展示差异"
+      ]
+    },
+    {
+      "contract_id": "R77-PROCESS-COMPARE",
+      "label": "比较行",
+      "field": "lesson_task_chain",
+      "line_contract_id": "line_compare",
+      "text_contains": [
+        "比较明度",
+        "同一种颜色加入白色",
+        "比较明度与纯度"
+      ]
+    },
+    {
+      "contract_id": "R77-PROCESS-DEMO",
+      "label": "示范行",
+      "field": "skills_materials_scaffolds",
+      "line_contract_id": "line_demo",
+      "text_contains": [
+        "做渐变实验",
+        "示范少量多次加色",
+        "示范方法"
+      ]
+    },
+    {
+      "contract_id": "R77-PROCESS-EVIDENCE",
+      "label": "证据行",
+      "field": "assessment_evidence",
+      "line_contract_id": "line_evidence",
+      "text_contains": [
+        "留下注据",
+        "说明自己怎么调出来",
+        "评价证据"
+      ]
+    },
+    {
+      "contract_id": "R77-EDIT-MODAL-BEFORE-AFTER",
+      "label": "编辑卡",
+      "field": "curriculum_basis",
+      "selectors": [
+        ".r6p-modal",
+        ".r6p-modal-body",
+        ".r6p-modal-compare"
+      ]
+    },
+    {
+      "contract_id": "R77-RIGHT-TOOL-RAIL",
+      "label": "右侧工具",
+      "field": "skills_materials_scaffolds",
+      "selectors": [
+        ".nb-right-rail",
+        ".r6p-resource-rail",
+        ".r6p-tool-strip"
+      ]
+    },
+    {
+      "contract_id": "R77-MODEL-CANDIDATE-SANDBOX",
+      "label": "模型候选",
+      "field": "lesson_task_chain",
+      "selectors": [
+        ".r50-field-strip",
+        "[data-r50-field-aware-edit-card='true']",
+        ".r50-line-contracts"
+      ]
+    },
+    {
+      "contract_id": "R77-BOTTOM-XIAOJIAO-JUDGEMENT",
+      "label": "底部判断",
+      "field": "lesson_task_chain",
+      "selectors": [
+        ".xiaobei-chat-entry",
+        ".r50-route-toast",
+        ".r6s-static-review-overlay"
+      ]
+    }
+  ]
+}
