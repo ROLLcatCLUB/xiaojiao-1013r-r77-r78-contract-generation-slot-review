@@ -5,24 +5,29 @@
         "bytes":  72
     },
     {
-        "path":  "artifacts\\prep_room_contract_id_static_sample_1013R_R77.html",
+        "path":  "artifacts/prep_room_contract_id_static_sample_1013R_R77.html",
         "sha256":  "b7ca4a6333f8180de94aa6ea5fbaef8e9a2c2af10a2261d7c7a416578241aa04",
         "bytes":  1219320
     },
     {
-        "path":  "artifacts\\prep_room_contract_id_static_sample_1013R_R77_contracts.json",
+        "path":  "artifacts/prep_room_contract_id_static_sample_1013R_R77_contracts.json",
         "sha256":  "386e893681b8c3188da5547c961e557442ed5dd0246006e23dd8182dc8d9f781",
         "bytes":  4834
     },
     {
-        "path":  "artifacts\\r77_generation_slot_model_outputs.json",
+        "path":  "artifacts/r77_generation_slot_model_outputs.json",
         "sha256":  "6c4445763071fee4a5197ff38c86425209ebd910e985ff571ac49ae3eae9e161",
         "bytes":  2236
     },
     {
-        "path":  "artifacts\\validate_1013R_R78_r77_generation_slot_model_smoke_result.json",
+        "path":  "artifacts/validate_1013R_R78_r77_generation_slot_model_smoke_result.json",
         "sha256":  "a00ce7257190622157bbce980d697334b0ea04196cf027e1d42545710bee8e06",
         "bytes":  5207
+    },
+    {
+        "path":  "FILE_HASHES_1013R_R77_R78_CONTRACT_GENERATION_SLOT.json",
+        "sha256":  "cf0bcc1a2a5abce02212e910991c27dd515df5dbbf5e1605d9c22eec476075dc",
+        "bytes":  2540
     },
     {
         "path":  "GPT_REVIEW_PROMPT_1013R_R77_R78_CONTRACT_GENERATION_SLOT.md",
@@ -40,27 +45,27 @@
         "bytes":  1254
     },
     {
-        "path":  "scripts\\make_1013R_R77_contract_id_static_sample.py",
+        "path":  "scripts/make_1013R_R77_contract_id_static_sample.py",
         "sha256":  "945aa4801046bdd3bd08f8151b2ac39f24f5201dffe4a44bdb7b3c723e2324fb",
         "bytes":  20609
     },
     {
-        "path":  "scripts\\run_1013R_R78_r77_generation_slot_model_smoke.py",
+        "path":  "scripts/run_1013R_R78_r77_generation_slot_model_smoke.py",
         "sha256":  "88072ae8c1fabd73b7ee76d3b0eb09faa44ded12d33f40c27a2fe590ff37ccec",
         "bytes":  9308
     },
     {
-        "path":  "source_refs\\output_parser.py",
+        "path":  "source_refs/output_parser.py",
         "sha256":  "fc112f17d6f9c139c5c8d555822d8000dda85dd83e704ca1c6cb95a145daf03e",
         "bytes":  5017
     },
     {
-        "path":  "source_refs\\prep_room_in_page_model_quality_loop_1013R_R45_R47.py",
+        "path":  "source_refs/prep_room_in_page_model_quality_loop_1013R_R45_R47.py",
         "sha256":  "faa07d69bd73f04be66d93f0351fa07cf3e4c3419ff8395eeb545c7e0a8e6284",
         "bytes":  29017
     },
     {
-        "path":  "source_refs\\providers.py",
+        "path":  "source_refs/providers.py",
         "sha256":  "3a588a93b918ec4312bb1164262ddc0010928a9a186659e5c21c7786fa83eb5a",
         "bytes":  46208
     }
